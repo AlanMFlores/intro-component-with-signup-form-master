@@ -1,0 +1,49 @@
+/*-----Inputs-----*/
+
+.trial-form__input {
+    width: 100%;
+    margin-bottom: $margin-inp-b;
+    padding: $input-padding;
+    border-radius: $radius-input;
+    border: 1px solid #ccc;
+}
+
+.trial-form__group-inp {
+    position: relative;
+}
+
+.err-ic {
+    display: none;
+    width: 15px;
+    position: absolute;
+    right: 25px;
+    top: 21px;
+}
+
+.err-mess {
+    display: none;
+    text-align: right;
+    color: $primary-red;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: $font-size-small;
+}
+
+/*Show-Error*/
+
+.show-error {
+    display: block;
+}
+
+.input-error {
+    margin-bottom: 0px;
+    border-color: $primary-red;
+}
+
+.hide-ph::placeholder {
+    visibility: hidden;
+}
+
+.error-ph::placeholder {
+    color: $primary-red;
+}

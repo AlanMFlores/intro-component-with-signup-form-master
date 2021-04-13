@@ -1,0 +1,25 @@
+/*-----Global-Styles-----*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: $font-family;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+/*-----Links-Styles-----*/
+
+a {
+    text-decoration: none;
+}
+
+button:focus {
+    outline: none;
+}

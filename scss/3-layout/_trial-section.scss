@@ -1,0 +1,35 @@
+.sign-up {
+    height: 100%;
+    padding: $sides-paddings;
+    padding-top: 75px;
+    padding-bottom: 50px;
+    background-color: $primary-red;
+    background-image: url(/images/bg-intro-mobile.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    @include media(large-dev) {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url(/images/bg-intro-desktop.png);
+        padding: $sides-paddings-des;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    &__copy {
+        @include media(large-dev) {
+            width: 55%;
+        }
+
+    }
+
+    &__trial {
+        @include media(large-dev) {
+            width: 45%;
+        }
+    }
+}

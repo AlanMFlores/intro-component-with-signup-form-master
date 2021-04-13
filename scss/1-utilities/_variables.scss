@@ -1,0 +1,40 @@
+//--------------------Variables--------------------//
+//-----
+//----------Colors----------//
+
+/*---Primary---*/
+
+    $primary-red: hsl(0, 100%, 74%);
+    $primary-green: hsl(154, 59%, 51%);
+
+/*---Accent---*/
+
+    $accent: hsl(248, 32%, 49%);
+
+/*---Neutral---*/
+
+    $dark-blue: hsl(249, 10%, 26%);
+    $grayish-blue: hsl(246, 25%, 77%);
+    $white: #ffffff;
+
+
+//----------Typography----------//
+
+    $font-family: 'Poppins', sans-serif;
+    $text-center: center; 
+
+
+//----------Padding & Margin----------//
+
+    $sides-paddings: 0 25px 0 25px;
+    $sides-paddings-des: 0 125px 0 125px;
+    $input-padding: 20px;
+    $button-padding: 15px 0;
+    $padding: 25px;
+    $margin-b: 45px;
+    $margin-inp-b: 15px;
+
+//----------Radius----------//
+
+    $radius-card: 8px;
+    $radius-input: 5px;

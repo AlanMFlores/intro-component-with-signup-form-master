@@ -1,0 +1,89 @@
+/*-----Typography-----*/
+
+/*--Font-Size-Variables--*/
+    $font-size-small: 1.1rem;
+    $font-size-copy: 1.4rem;
+    $font-size-title: 2.4rem;
+
+
+/*--Font-Sizes--*/
+
+/*Globals*/
+
+
+p {
+    font-size: $font-size-copy;
+    color: $white;
+}
+
+h1 {
+    font-size: $font-size-title;
+    color: $white;
+}
+
+/*Copy-Section*/
+
+.sign-up__copy {
+    margin-bottom: $margin-b;
+    text-align: $text-center;
+
+    &--title {
+        width: 85%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        line-height: 1.3;
+
+        @include media(large-dev) {
+            width: 60%;
+            margin: 0;
+            margin-bottom: 30px;
+            font-size: 4rem;
+            text-align: left;
+        }
+    }
+
+    &--description {
+        font-weight: 500;
+        line-height: 1.7;
+
+        @include media(large-dev) {
+            font-size: 1.8rem;
+            text-align: left;
+            margin-right: 50px;
+        }
+    }
+}
+
+/*Trial-Button*/
+
+.trial-button {
+    color: $white;
+    font-size: $font-size-copy;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+/*Terms-Services*/
+
+.terms-services {
+    width: 90%;
+    margin: 0 auto;
+    font-size: $font-size-small;
+    color: $grayish-blue;
+    text-align: center;
+
+    a {
+        color: $primary-red;
+    }
+}
+
+/*Placeholders*/
+
+input::placeholder {
+    font-family: $font-family;
+    color: $dark-blue;
+    font-weight: 700;
+}
+
+
